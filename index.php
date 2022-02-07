@@ -3,6 +3,6 @@
   <title>Teste PHP</title>
  </head>
  <body>
- <?php echo "<p>Estamos operando</p>"; ?>
+ <?php echo "<p>Estamos operando novamente</p>"; ?>
  </body>
 </html>
