@@ -3,7 +3,7 @@
 # $ php -f db-connect-test.php
 
 $dbname = 'dbsql';
-$dbuser = 'myuser';
+$dbuser = 'myuser2';
 $dbpass = 'mypass';
 $dbhost = '192.168.68.24';
 
