@@ -3,8 +3,8 @@
 # $ php -f db-connect-test.php
 
 $dbname = 'dbsql';
-$dbuser = 'mateus';
-$dbpass = 'password';
+$dbuser = 'myuser';
+$dbpass = 'mypass';
 $dbhost = '192.168.68.24';
 
 $connect = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Unable to Connect to '$dbhost'");
