@@ -2,10 +2,10 @@
 # Fill our vars and run on cli
 # $ php -f db-connect-test.php
 
-$dbname = 'name';
-$dbuser = 'user';
-$dbpass = 'pass';
-$dbhost = 'host';
+$dbname = 'dbsql';
+$dbuser = 'newuser';
+$dbpass = 'password';
+$dbhost = '192.168.68.24';
 
 $connect = mysql_connect($dbhost, $dbuser, $dbpass) or die("Unable to Connect to '$dbhost'");
 mysql_select_db($dbname) or die("Could not open the db '$dbname'");
